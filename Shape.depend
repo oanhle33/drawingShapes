@@ -1,0 +1,52 @@
+# depslib dependency file v1.0
+1649124456 source:c:\csci 15\shape\main.cpp
+	<iostream>
+	<string>
+	"Shape.h"
+	"Rectangle.h"
+	"Parallelogram.h"
+	"Triangle.h"
+	"Square.h"
+
+1649121184 c:\csci 15\shape\shape.h
+	<string>
+
+1649120422 c:\csci 15\shape\rectangle.h
+	"Parallelogram.h"
+
+1649190744 c:\csci 15\shape\parallelogram.h
+	"Shape.h"
+
+1649122375 c:\csci 15\shape\triangle.h
+	"Shape.h"
+
+1649124261 c:\csci 15\shape\square.h
+	"Rectangle.h"
+	<string>
+
+1649192089 source:c:\csci 15\shape\parallelogram.cpp
+	"Shape.h"
+	"Triangle.h"
+	"Parallelogram.h"
+	<cmath>
+	<iostream>
+
+1649139471 source:c:\csci 15\shape\rectangle.cpp
+	"Parallelogram.h"
+	"Rectangle.h"
+
+1649137148 source:c:\csci 15\shape\triangle.cpp
+	<cmath>
+	"Shape.h"
+	"Triangle.h"
+	<iostream>
+
+1649192773 source:c:\csci 15\shape\square.cpp
+	"Parallelogram.h"
+	"Rectangle.h"
+	"Square.h"
+
+1649190744 source:c:\csci 15\shape\shape.cpp
+	"Shape.h"
+	<iostream>
+
